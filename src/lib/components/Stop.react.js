@@ -119,6 +119,12 @@ Stop.propTypes = {
     stopOpacity: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 
     /**
+     * It tells the distance where the gradient stop is positioned along the gradient vector
+     */
+
+    offset: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+
+    /**
      *  Often used with CSS to style elements with common properties.
      * 
      */
